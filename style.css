@@ -1,0 +1,244 @@
+:root{
+    --main-c:#fdd72d;
+    --border-r: 2rem;
+
+}
+/**estilos generales**/
+
+html*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma,
+     Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    font-size: 1.1rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.wrap-cta{
+    padding: 1.5rem 0;
+
+}
+
+.cta-a{
+    color: #fff;
+    font-weight: bold;
+    font-size:1.2rem;
+    background-color: var(--main-c);
+    padding: .5rem 1rem;
+    border-radius: var(--border-r);
+
+}
+
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2.2rem;
+}
+
+/** header **/
+
+.header-landing {
+display: flex;
+justify-content: center;
+background-color: #f2f2f2;
+padding: 0.25rem;
+
+}
+
+.logo-header{
+max-width: 35px;
+height: 100%;
+width: 100%;
+
+}
+
+/** hero section**/ 
+
+.hero-section{
+    height: 90vh;
+    background: url(./afondo\ de\ uinicio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(#106, #141,#163, 0.7);
+    background-blend-mode: multiply;
+    display: felx;
+    align-items: center;
+}
+
+.wrap-hero-section{
+max-width: 700px ;
+color: #fff;
+padding: 20%;
+}
+
+/** logo brank section**/
+
+.secetion{
+    margin: 5rem 0;
+
+}
+
+.secetion h2{
+    padding: 2rem 0;
+
+}
+
+.wrap-logo-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-brand{
+    width: 200px;
+    padding: 1rem 2rem;
+    filter: grayscale(1);
+
+}
+
+/**wrap tittle**/
+
+.wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+}
+
+/**servicios section**/
+.servicio-section{
+background-color: #fff;
+}
+.item-servicios-section p{
+    font-family: 'arial', cursive;
+    font-size: 20px;
+    color: #080808;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+
+}
+
+.wrap-servicios-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.item-servicios-section{
+    padding: 1rem;
+
+}
+
+.item-servicios-section img{
+    width: 350px;
+    height: 225px;
+}
+/** two columns section**/
+
+.wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.wrap-img-two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.wrap-tex-column h3{
+    padding:2rem 0;
+
+}
+.wrap-tex-column p{
+    padding-bottom: 1rem;
+}
+
+/**form section**/
+
+section.two-column-section.form{
+    background-color: #f2f2f2;
+    padding: 3rem 0;
+
+}
+
+.wrap-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.form input, .form textarea{
+    display: flex;
+    width: 100%;
+    line-height: 1,75rem;
+    border: 1.5px solid #f2f2f2;
+    border-radius: var(--border-r);
+
+}
+
+.form textarea{
+    min-height: 200px;
+}
+
+input[type="submit"]{
+    border: 0;
+    display: inline;
+    cursor: pointer;
+}
+
+/**footer**/
+
+.footer-section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-footer-section{
+    padding: 1rem 0;
+
+}
+.wrap-social-logos ul, 
+.wrap-menu-footer-section ul{
+display: flex;
+justify-content: center;
+
+}
+
+.social-logo{
+    max-width: 75px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.wrap-menu-footer-section ul li{
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    
+}
+
+.footer-creds{
+    display: flex;
+    justify-content: center;
+}
